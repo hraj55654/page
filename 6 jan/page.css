@@ -1,0 +1,58 @@
+body{
+    border-top: 1px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 1px solid black;
+    box-shadow:  5px 5px 5px blanchedalmond;
+    height: auto;
+    padding: 10px 20px;
+    /* text-align: center; */
+}
+/* #main{
+    border: 1px solid black;
+} */
+/* #main{
+    margin: 25%;
+} */
+
+.page{
+    border-top: 2px solid lightpink;
+    border-bottom: 2px solid lightpink;
+    border-left: 2px solid lightskyblue;
+    border-right: 2px solid lightskyblue;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-right: 15%;
+    
+    
+}
+.page > #container{
+    text-align: justify;
+    padding: 0px;
+}
+#large-letter::first-letter{
+    font-size: 200%;
+
+}
+span::first-line{
+    font-size: 100%;
+    letter-spacing: 0.2rem;
+    
+}
+
+#center{
+    text-align: center;
+    letter-spacing: 0.5rem;
+    /* padding-top: -10px; */
+    margin-top: -20px;
+
+}
+strong{
+    text-align: center;
+}
+#name{
+    text-align: center;
+
+}
